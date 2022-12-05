@@ -1,5 +1,11 @@
-body {
+  html{
+  background: url(./physics_back.jpg) no-repeat center center;
   background-size: cover;
+}
+
+  body {
+  background-size: cover;
+  
   font-weight: 500;
 }
 
@@ -10,7 +16,17 @@ p {
   text-align: justify;
   
 }
-
+p span{
+  font-weight: 800;
+}
+p span:hover{
+  color: red;
+}
+img{
+  float: right;
+  width: 260px;
+  margin-left: 20px;
+}
 #tartalom {
   background-color: rgba(200, 200, 200, 0.85);
   border-radius: 30px;
@@ -18,6 +34,10 @@ p {
   padding: 30px;
   margin-left: auto;
   margin-right: auto;
+}
+#tartalom img{
+  float: right;
+
 }
 
 h1 {
