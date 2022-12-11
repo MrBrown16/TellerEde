@@ -1,6 +1,6 @@
 body {
     font-family: Geneva, sans-serif;
-    background: url('../forrás/physics_back.jpg') no-repeat center center;
+    background: url('./physics_back.jpg') no-repeat center center;
     background-size: cover;
     font-weight: 500;
   }
@@ -32,7 +32,7 @@ body {
   }
   
   ul {
-    list-style-image: url('../forrás/physics_icon.png');
+    list-style-image: url('./physics_icon.png');
   }
   
   p span{
